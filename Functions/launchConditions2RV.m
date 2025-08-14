@@ -1,8 +1,8 @@
-function [r0, v0, y0, w0_hat] = launch_conditions2rv(Re, dec0, alt0, RAAN0, gamma0, v0_mag, rm0)
+function [r0, v0, y0, w0_hat] = launchConditions2RV(Re, dec0, alt0, RAAN0, gamma0, v0_mag, rm0)
 %==========================================================================
-% launch_conditions2rv: Computes the initial position and velocity vectors
-%                       (r0, v0) of the spacecraft at Trans-Lunar Injection (TLI),
-%                       given the departure conditions.
+% launchConditions2RV: Computes the initial position and velocity vectors
+%                      (r0, v0) of the spacecraft at Trans-Lunar Injection (TLI),
+%                      given the departure conditions.
 %
 % Inputs:
 %   Re      - Radius of the Earth [km]
@@ -52,6 +52,6 @@ function [r0, v0, y0, w0_hat] = launch_conditions2rv(Re, dec0, alt0, RAAN0, gamm
 
     % Diagnostic print statements
     % fprintf('Initial position vector of Probe (r0) = [%.2f, %.2f,%.2f] km\n', r0);  % Position vector (r0)
-    % fprintf('Initial velocity vector of Probe (v0) = [%.4f, %.4f, %.4f] km/s\n', v0);  % Velocity vector (V0)
+    % fprintf('Initial velocity vector of Probe (v0) = [%.4f, %.4f, %.4f] km/s\n', v0);  % Velocity vector (v0)
     % fprintf('Initial state vector of Probe in ECI frame (y0_prb) = [%.4f, %.4f, %.4f, %.4f, %.4f, %.4f]\n', y0); % State vector
 end

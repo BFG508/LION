@@ -33,7 +33,7 @@ function dydt = rates(t, y, jd0, ttt, days, mu_m, mu_e)
     r_mag = norm(r);
 
     % Compute Moon's position at current Julian Date using ephemeris
-    [rm, ~] = simpsons_lunar_ephemeris(jd);
+    [rm, ~] = simpsonsLunarEphemeris(jd);
     rm_mag = norm(rm);
 
     % Vector from spacecraft to Moon (r_moon - r_spacecraft)

@@ -1,7 +1,7 @@
-function plotitxyz(x, y, z, xm, ym, zm, imin, Re, Rm)
+function plotXYZ(x, y, z, xm, ym, zm, imin, Re, Rm)
 %==========================================================================
-% plotitxyz: Plots the trajectory of the spacecraft in a Moon-fixed 
-%            rotating reference frame, along with the Moon and Earth.
+% plotXYZ: Plots the trajectory of the spacecraft in a Moon-fixed 
+%          rotating reference frame, along with the Moon and Earth.
 %
 % Inputs:
 %   x, y, z      - Spacecraft position vectors in Moon-fixed frame [km]

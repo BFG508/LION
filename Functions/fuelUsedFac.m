@@ -1,7 +1,7 @@
-function fuel = fuel_used_fac(fac, alt0, mu_e, vesc, Re, Isp, m0, g0)
+function fuel = fuelUsedFac(fac, alt0, mu_e, vesc, Re, Isp, m0, g0)
 %==========================================================================
-% fuel_used_fac: Computes the amount of fuel used for a given scaling factor 
-%                'fac' applied to the escape velocity.
+% fuelUsedFac: Computes the amount of fuel used for a given scaling factor 
+%             'fac' applied to the escape velocity.
 %
 % Inputs:
 %   fac    - Scaling factor applied to escape velocity (vesc)
@@ -32,5 +32,5 @@ function fuel = fuel_used_fac(fac, alt0, mu_e, vesc, Re, Isp, m0, g0)
     deltaV = v_TLI - v_circular;  % [km/s]
 
     % Compute fuel consumed using the deltaV and rocket equation
-    fuel = compute_fuel_used(deltaV, Isp, g0, m0);  % [kg]
+    fuel = computeFuelUsed(deltaV, Isp, g0, m0);  % [kg]
 end

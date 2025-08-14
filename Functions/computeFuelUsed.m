@@ -1,7 +1,7 @@
-function fuel = compute_fuel_used(deltaV, Isp, g0, m0)
+function fuel = computeFuelUsed(deltaV, Isp, g0, m0)
 %==========================================================================
-% compute_fuel_used: Calculates the fuel mass used for a given deltaV using 
-%                    the Tsiolkovsky rocket equation.
+% computeFuelUsed: Calculates the fuel mass used for a given deltaV using 
+%                  the Tsiolkovsky rocket equation.
 %
 % Inputs:
 %   deltaV - Delta-V required for the maneuver [km/s]

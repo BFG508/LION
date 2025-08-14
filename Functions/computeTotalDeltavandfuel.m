@@ -1,6 +1,6 @@
-function [deltaV, fuel_used] = compute_total_deltavandfuel(alt0, mu_e, fac, vesc, Re, Isp, m0, g0)
+function [deltaV, fuel_used] = computeTotalDeltavandfuel(alt0, mu_e, fac, vesc, Re, Isp, m0, g0)
 %==========================================================================
-% compute_total_deltavandfuel: Calculates the total ΔV required for a 
+% computeTotalDeltavandfuel: Calculates the total ΔV required for a 
 % Trans-Lunar Injection (TLI) maneuver from a given Low Earth Orbit (LEO)
 % altitude, and computes the corresponding fuel consumption using the 
 % rocket equation.
@@ -33,5 +33,5 @@ function [deltaV, fuel_used] = compute_total_deltavandfuel(alt0, mu_e, fac, vesc
     deltaV = v_TLI - v_circular;
     
     % Compute the fuel mass used using the rocket equation
-    fuel_used = compute_fuel_used(deltaV, Isp, g0, m0);
+    fuel_used = computeFuelUsed(deltaV, Isp, g0, m0);
 end

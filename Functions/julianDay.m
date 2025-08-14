@@ -1,7 +1,7 @@
-function [jd] = julian_day(year, month, day, UT)
+function [jd] = julianDay(year, month, day, UT)
 %==========================================================================
-% julian_day: Computes the Julian Day Number (JD) for a given calendar date 
-%             and Universal Time (UT).
+% julianDay: Computes the Julian Day Number (JD) for a given calendar date 
+%            and Universal Time (UT).
 %
 % Inputs:
 %   year   - Year (e.g., 2025)

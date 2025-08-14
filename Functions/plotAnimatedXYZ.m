@@ -1,8 +1,8 @@
-function plotit_XYZ(X, Y, Z, Xm, Ym, Zm, imin, Re, Rm)
+function plotAnimatedXYZ(X, Y, Z, Xm, Ym, Zm, imin, Re, Rm)
 %==========================================================================
-% plotit_XYZ: Visualizes the 3D trajectories of the spacecraft and the moon 
-%             in the Earth-Centered Inertial (ECI) frame, including an 
-%             animation of their motion.
+% plotAnimatedXYZ: Visualizes the 3D trajectories of the spacecraft and the moon 
+%                  in the Earth-Centered Inertial (ECI) frame, including an 
+%                  animation of their motion.
 %
 % Inputs:
 %   X, Y, Z     - Spacecraft position vectors in ECI frame [km]

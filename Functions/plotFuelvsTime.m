@@ -1,7 +1,7 @@
-function plot_fuel_vs_time(t, m0, deltaV_total, burn_duration, Isp)
+function plotFuelvsTime(t, m0, deltaV_total, burn_duration, Isp)
 %==========================================================================
-% plot_fuel_vs_time: Plots the cumulative fuel consumption profile during 
-%                    the main maneuver burn, assuming a constant rate burn.
+% plotFuelvsTime: Plots the cumulative fuel consumption profile during 
+%                 the main maneuver burn, assuming a constant rate burn.
 %
 % Inputs:
 %   t             - Time vector from ODE integration [s]

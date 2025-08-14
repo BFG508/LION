@@ -1,6 +1,6 @@
-function [pos, vel] = simpsons_lunar_ephemeris(jd)
+function [pos, vel] = simpsonsLunarEphemeris(jd)
 %==========================================================================
-% simpsons_lunar_ephemeris: Computes an approximate position and velocity
+% simpsonsLunarEphemeris: Computes an approximate position and velocity
 % vector of the Moon at a given Julian Date using a simplified ephemeris
 % based on harmonic terms.
 %

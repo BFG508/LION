@@ -1,7 +1,7 @@
-function [ra, dec] = ra_and_dec_from_r(r)
+function [ra, dec] = RAandDecFromR(r)
 %==========================================================================
-% ra_and_dec_from_r: Computes the Right Ascension (RA) and Declination (Dec)
-%                    from a given position vector in the ECI frame.
+% RAandDecFromR: Computes the Right Ascension (RA) and Declination (Dec)
+%                from a given position vector in the ECI frame.
 %
 % Inputs:
 %   r  - Position vector in ECI coordinates [x; y; z] (km)
