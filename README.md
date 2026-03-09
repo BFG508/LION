@@ -40,3 +40,6 @@ Since this project is developed entirely in MATLAB, no external compilation or c
 2. **Open MATLAB** and navigate to the cloned `LION` directory.
 3. **Add to Path**: Ensure that `/Functions` subdirectory is added to your MATLAB path to allow the main scripts to access necessary functions and data files. You can do this by right-clicking the `/Functions` folder in the Current Folder browser and selecting Add to Path > Selected Folders and Subfolders.
 4. **Run the Simulation**: Open `LION.m` and run the script. The console will output the optimization results, departure conditions, and lunar arrival data, followed by the generation of the 3D trajectory animations and analytical plots.
+
+## 🤝 Acknowledgments
+This project was inspired by and developed following the concepts demonstrated by **[Noha Fathy](https://www.linkedin.com/in/noha-fathy-62b8a2245/)** in her [Lunar transfer trajectory for flyby missions MATLAB activity](https://www.linkedin.com/posts/noha-fathy-62b8a2245_lunar-transfer-for-flyby-missions-matlab-activity-7357818263679963136-QFm6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZXb0gBVgwvusmcKAUrMSABo0qEB3kFVoM).
