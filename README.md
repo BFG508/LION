@@ -34,7 +34,7 @@ This project is developed entirely in **MATLAB** and relies on its core mathemat
 ## ⚙️ Installation & Usage
 Since this project is developed entirely in MATLAB, no external compilation or complex dependency management is required.
 
-1. **Clone the repository:**
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/BFG508/LION
 2. **Open MATLAB** and navigate to the cloned `LION` directory.
