@@ -32,7 +32,7 @@ This project is developed entirely in **MATLAB** and relies on its core mathemat
     * `plotFuelvsTime.m` - Graphs the cumulative fuel consumption profile during the main engine burn.
 
 ## ⚙️ Installation & Usage
-Since this project is pure MATLAB, there are no complex dependencies to install.
+Since this project is developed entirely in MATLAB, no external compilation or complex dependency management is required.
 
 1. **Clone the repository:**
    ```bash
